@@ -508,6 +508,9 @@ func (conn *Tunnel) serve() {
 		// Check if we can try again.
 		if err == errDisconnected || err == errHeartbeatFailed {
 			util.Log(conn, "Attempting reconnect")
+			if err == errHeartbeatFailed {
+				conn.requestDisc()
+			}
 
 			reconnErr := conn.requestConn()
 
