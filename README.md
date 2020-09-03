@@ -38,10 +38,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/vapourismo/knx-go/knx"
-	"github.com/vapourismo/knx-go/knx/cemi"
-	"github.com/vapourismo/knx-go/knx/dpt"
-	"github.com/vapourismo/knx-go/knx/util"
+	"github.com/pevecyan/knx-go/knx"
+	"github.com/pevecyan/knx-go/knx/cemi"
+	"github.com/pevecyan/knx-go/knx/dpt"
+	"github.com/pevecyan/knx-go/knx/util"
 )
 
 func main() {
@@ -128,8 +128,8 @@ import (
 
 	"github.com/kr/pretty"
 
-	"github.com/vapourismo/knx-go/knx"
-	"github.com/vapourismo/knx-go/knx/util"
+	"github.com/pevecyan/knx-go/knx"
+	"github.com/pevecyan/knx-go/knx/util"
 )
 
 func main() {

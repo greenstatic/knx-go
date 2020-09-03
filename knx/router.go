@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vapourismo/knx-go/knx/cemi"
-	"github.com/vapourismo/knx-go/knx/knxnet"
-	"github.com/vapourismo/knx-go/knx/util"
+	"github.com/pevecyan/knx-go/knx/cemi"
+	"github.com/pevecyan/knx-go/knx/knxnet"
+	"github.com/pevecyan/knx-go/knx/util"
 )
 
 // A RouterConfig determines certain properties of a Router.
