@@ -509,6 +509,7 @@ func (conn *Tunnel) serve() {
 		if err == errDisconnected || err == errHeartbeatFailed {
 			util.Log(conn, "Attempting reconnect")
 			if err == errHeartbeatFailed {
+				fmt.Println("KNX Heartbeat failed")
 				conn.requestDisc()
 			}
 
