@@ -580,6 +580,9 @@ func (conn *Tunnel) Inbound() <-chan cemi.Message {
 
 // Send relays a tunnel request to the gateway with the given contents.
 func (conn *Tunnel) Send(data cemi.Message) error {
+	if conn == nil {
+		return errors.New("Tunnel is nil")	
+	}
 	return conn.requestTunnel(data)
 }
 
