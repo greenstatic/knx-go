@@ -80,7 +80,7 @@ func serveGroupInbound(inbound <-chan cemi.Message, outbound chan<- GroupEvent) 
 }
 
 var defaultGroupLData = cemi.LData{
-	Control1: cemi.Control1NoRepeat | cemi.Control1NoSysBroadcast | cemi.Control1WantAck | cemi.Control1Prio(cemi.PrioLow),
+	Control1: cemi.Control1NoRepeat | cemi.Control1NoSysBroadcast | cemi.Control1Prio(cemi.PrioLow),
 	Control2: cemi.Control2GroupAddr | cemi.Control2Hops(6),
 }
 
