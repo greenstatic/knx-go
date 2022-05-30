@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // Protocol specifies a host protocol to use.

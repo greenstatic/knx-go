@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // NewSearchReq creates a new SearchReq, addr defines where ObjectServers should send the reponse to

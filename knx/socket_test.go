@@ -8,7 +8,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/pevecyan/knx-go/knx/knxnet"
+	"github.com/greenstatic/knx-go/knx/knxnet"
 )
 
 type dummySocket struct {

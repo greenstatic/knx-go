@@ -6,8 +6,8 @@ package knxnet
 import (
 	"errors"
 
-	"github.com/pevecyan/knx-go/knx/cemi"
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/cemi"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // A TunnelReq asks a gateway to transmit data.

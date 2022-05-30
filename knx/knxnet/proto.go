@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // ServiceID identifies the service that is contained in a packet.

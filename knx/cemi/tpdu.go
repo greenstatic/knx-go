@@ -6,7 +6,7 @@ package cemi
 import (
 	"io"
 
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // APCI is the Application-layer Protocol Control Information.

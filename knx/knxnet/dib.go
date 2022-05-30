@@ -6,8 +6,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/pevecyan/knx-go/knx/cemi"
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/cemi"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 const (

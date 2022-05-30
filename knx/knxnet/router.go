@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pevecyan/knx-go/knx/cemi"
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/cemi"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // A RoutingInd indicates to one or more routers that the contents shall be routed.

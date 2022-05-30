@@ -7,7 +7,7 @@ package cemi
 import (
 	"fmt"
 
-	"github.com/pevecyan/knx-go/knx/util"
+	"github.com/greenstatic/knx-go/knx/util"
 )
 
 // MessageCode is used to identify the type of message inside a CEMI-encoded frame.
