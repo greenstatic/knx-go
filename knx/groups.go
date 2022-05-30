@@ -71,6 +71,8 @@ func serveGroupInbound(inbound <-chan cemi.Message, outbound chan<- GroupEvent) 
 			} else {
 				util.Log(inbound, "Received L_Data.ind frame does not contain application data")
 			}
+		} else if _, ok := msg.(*cemi.LDataCon); ok {
+			// OK, telegram is a LDataCon
 		} else {
 			util.Log(inbound, "Received frame is not a L_Data.ind frame")
 		}
